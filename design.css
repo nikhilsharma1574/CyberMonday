@@ -1,0 +1,103 @@
+.body {
+  background-image: url("backgroundimg.png");
+  height: 200%;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.heading {
+  text-align: center;
+  font-size: 45px;
+  background-color: rgba(255, 255, 255, 0.336);
+  border-radius: 15px;
+  text-shadow: 2px 2px rgba(0, 224, 224, 0.692), -1px -1px rgb(255, 255, 255);
+  letter-spacing: 13px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+.nav{
+    font-size: 16px;
+    text-align: left;
+    background-color: rgb(30, 187, 192);
+    color: white;
+    overflow: hidden;
+    border-radius: 9px;   
+  
+}
+.nav a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav a:hover {
+  background-color: rgba(77, 255, 255, 0.603);
+  color: black;
+}
+.vdo1{
+    margin-right: 50px;
+    height: 240px;
+    width: 690px; 
+}
+
+.login{
+  text-align: center;
+  margin-right: 3px;
+  margin-left: -7px;
+  margin-top: 20px;
+  color: rgb(255, 0, 0);
+  border-radius: 5px;
+}
+
+.signup{
+  border-radius: 5px;
+}
+
+.input{
+  margin-top: 30px;
+}
+
+.password{
+  margin-top: 12px;
+}
+
+.rmb{
+  color: rgb(0, 196, 0);
+ margin-top: 12px;
+}
+.wlcm{
+  color: white;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgba(0, 0, 0, 0.432);
+  border-radius: 30px;
+  height: 25px;
+}
+.logindata{
+  text-align: center;
+  background-color: rgba(131, 131, 131, 0.479);
+  border-radius: 20px;
+  margin-left: 600px;
+  margin-top: 20px;
+  height: 250px;
+  width: 250px;
+}
+
+.content {
+  font-size: 40px;
+  margin-top: 25px;
+  margin-left: 20px;
+  color: white;
+  text-shadow: 2px 2px red, -3px -3px black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.scroll{
+  scroll-behavior: smooth;
+  direction: ltr;
+  color: white;
+  text-shadow: black;
+}
+
