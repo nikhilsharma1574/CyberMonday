@@ -58,10 +58,12 @@
 
 .input{
   margin-top: 30px;
+  border-radius: 7px;
 }
 
 .password{
   margin-top: 12px;
+  border-radius: 7px;
 }
 
 .rmb{
