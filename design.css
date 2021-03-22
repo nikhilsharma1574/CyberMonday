@@ -9,7 +9,7 @@
   text-align: center;
   position: relative;
   font-size: 70px;
-  margin-top: 20px;
+  margin-top: 10px;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
@@ -139,6 +139,7 @@
   border-radius: 20px;
   margin-left: 1000px;
   margin-top: -45px;
+   box-shadow: rgb(0, 0, 0) 15px 15px 15px ;
   position: absolute;
   height: 350px;
   width: 320px;
@@ -200,7 +201,7 @@
 .theory {
   width: 1485px;
   height: 200px;
-  background-color: rgb(240, 248, 255);
+  background-color: rgba(240, 248, 255, 0.493);
   font-size: 20px;
   border-radius: 5px;
   color: rgb(0, 0, 0);
@@ -233,3 +234,13 @@
   width: 220px;
   height: 25px;
 }
+.footer
+{
+  position: absolute ;
+	width: 100%;
+	bottom: -100%;
+	background-color: rgb(73, 73, 73);
+	color: white;
+	text-align: center;
+}
+
