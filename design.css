@@ -270,5 +270,12 @@
 .htheory
 {
   color: black;
+  
   font-size: 120%;
+}
+/* contact body*/
+.conbody
+{
+  background-color: rgb(158, 158, 158);
+  height: 100%;
 }
