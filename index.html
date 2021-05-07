@@ -5,11 +5,11 @@
     <link rel="stylesheet" href="design.css">
   </head>
   <div class="all">
-  <div class="Body">
+  <div class="Body">  
     <body>
       <div class="nav">
-        <a href="index.html">Home</a>
-        <a href="about.html"> About </a>
+        <a href="file.html">Home</a>
+        <a id="about" href="about.html"> About </a>
         <a href="contact.html"> Contact </a>
         <div class="sub"></div><a href="sub.html"> Subscribe </a>
       <div class="search">
@@ -21,9 +21,12 @@
       <div class="heading" >CYBER    MONDAY</div>
       <div class="content">
         NEW TECHNIQUE EVERY DAY
+        
         <br/>
         DAILY TECH !!!!!!
       </div>
+      <div class="clock">
+       Time = <span  id="time"></span></div>
       
       <div class="logindata">
         <div class="wlcm">WELCOME</div> <br>
@@ -31,8 +34,8 @@
       <input class="password" type="password" placeholder="Enter Password"><br>
       <div class="rmb">
       <input class="tick" type="checkbox" id="check">Remember me<br>
-      <button a href="login"  class="login">LOGIN</button> 
-      <button a href="signup" class="signup">SIGNUP</button> 
+      <button a href="login" id="login" onclick="document.write(5 + 6)" class="login">LOGIN</button> 
+      <button a href="signup" id="signup" class="signup">SIGNUP</button> 
       <br>
       </div>
       <a href="forgotpw" class="forgot"> Forgot Password </a>
@@ -41,7 +44,7 @@
         <video muted autoplay loop class="vdo1">
           <source src="videotag.mp4" type="video/mp4" />
         </video>
-</div>
+      </div>
         <br>
         <div class="scrollbox">
           <div class="hed"> Latest NEWS </div><br>
@@ -60,29 +63,30 @@
           </marquee>
           </div>
         </div>
-        <div class="theory">
-    So Hi Everyone , My Self Nikhil Sharma
-    This is My First Website Created Using HTML And Css , With help of open source Platform
-    ie. Github.
-    In this Website I have Used Many Featers like
-    Glowing effects of text , Shadow effects , Marqee effect (Scrolling effect), login box , video tags , and also used 
-    Gradient colours in some sections .<br>
-    hover buttons , tick box ,and many others exciting featers . <br>
-     This website is Published Using Platform Called Github wich is an opensource Platform
-      , were users can come togethere and work on a set of codings of individual or of proffesionals
-      even Diffrent large institution showcase their code to remove bugs or do some modifications
-      in the same.
-      </div>
       <br><br>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
       </div>
-</div></div>
+</div>
+
+<div class="bg">
+   <div class="black1">Glance Overview</div>
+        <div class="p2nav">
+          <div class="p2logo">
+       <img class="ylogo" id="ylogo" height="17 px" src="image.png">
+      </div> 
+        <div id="yhed" class="p2theory">
+           YOUTUBE &#8482;
+        </div>
+        </div>
+          
+</div>
+</div>
 </div>
 <div class="footer">
-  <div class="footer">
-    <p>Copyrights &copy; 2021 || Cyber Monday &reg; ||  Contact us  ||  SRM UNIVERSITY , Chennai</p>
-    </div>
+    <p>Copyrights &copy; 2021 || Cyber Monday &reg; ||  Contact us  ||  SRM UNIVERSITY , Chennai</p> 
 </div>
     </body>
-    
   </div>
+  <script src="javascript.js"></script>  
 </html>
+
