@@ -1,11 +1,13 @@
 .body {
-  background-image: url("backgroundimg.png");
-  height: 149%;
-  background-repeat: no-repeat;
+  height: 130%;
   width: 100%;
   background-repeat: no-repeat  ;
-}
+  background-attachment: fixed;
+  position: relative;
+  background-image: url("backgroundimg.png");
 
+  background-size: cover;
+}
 .heading {
   text-align: center;
   position: relative;
@@ -54,8 +56,8 @@
 .vdo1 {
   position: absolute;
   margin-top: 50px;
-  margin-left: -20px;
-  height: 240px;
+  margin-left: 50px;
+  height: 240px;4
   width: 690px;
 }
 
@@ -135,16 +137,16 @@
   height: 25px;
 }
 .logindata {
+  float: right;
   text-align: center;
   background-color: rgba(131, 131, 131, 0.479);
   border-radius: 20px;
-  margin-left: 1000px;
-  margin-top: -55px;
+  margin-right: 120px;
+  margin-top: -50px;
   box-shadow: rgb(0, 0, 0) 15px 15px 15px;
-  position: absolute;
   height: 320px;
   width: 300px;
-  float: left;
+  float: right;
 }
 .sideright {
   height: 250px;
@@ -169,7 +171,8 @@
   background-color: rgba(0, 0, 0, 0.479);
   border-radius: 20px;
   margin-left: 500px;
-  margin-top: 530px;
+  position: relative;
+  margin-top: 310px;
   box-shadow: rgb(0, 0, 0) -15px 15px 15px;
   height: 250px;
   width: 590px;
@@ -278,4 +281,98 @@
 {
   background-color: rgb(158, 158, 158);
   height: 100%;
+}
+/* About page css starts here*/
+.srmlogo
+{
+  max-width:500px;
+  margin-left: 75%;
+  margin-top: -6%;
+}
+.dpslogo
+{
+  max-width:500px;
+  margin-left: 75%;
+  margin-top: -6%;
+}
+.htmllogo
+{
+  max-width:500px;
+  margin-left: 65%;
+  margin-top: -7%;
+}
+.csslogo
+{
+  max-width:500px;
+  margin-left: 74%;
+  margin-top: -8%;
+}
+.clogo
+{
+  max-width:500px;
+  margin-left: 84%;
+  margin-top: -7%;
+}
+.bg
+{
+  height: 200%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url(pexels-hasan-albari-1229861.jpg);
+  
+}
+.black1
+{ 
+  background: rgb(30, 138, 165);
+  color: wheat;
+  font-size: 45px;
+  height: 70px;
+  text-align: center;
+} 
+.p2theory
+{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-left: 60px;;
+  margin-top: -20px;
+  color: #000000;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.p2logo
+{
+  
+  margin-left: 72px;
+}
+.yline {
+  width: 35px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 6px;
+  
+}
+.p2nav
+{
+  height: 31px;
+  width: 100%;
+  padding-top: 10px;
+  font-size: 28px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  
+}
+.clock
+{
+  color: white;
+  font-size: 20px;
+  margin-left: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ylogo{
+  margin-left: -50px;
 }
