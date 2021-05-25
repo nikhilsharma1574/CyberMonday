@@ -107,7 +107,7 @@
 .c2 {
   margin-top: -10px;
 }
-.hr {
+.hr { 
   width: 550px;
   margin-top: -50px;
   float: left;
@@ -375,4 +375,10 @@
 }
 .ylogo{
   margin-left: -50px;
+}
+#myBtn{
+  color: #fd0000;
+  background-color: aqua;
+  border-radius: 8px;
+  font-size: 20px;
 }
