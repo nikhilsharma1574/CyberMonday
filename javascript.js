@@ -1,5 +1,4 @@
-let a;
-let time;
+let a,time;
 time = ()=>{
     a = new Date();
     time =
@@ -13,8 +12,6 @@ time = ()=>{
     document.getElementById("time").innerHTML = time;
 }
 setInterval(time,1000);
-var mybutton= document.getElementById("myBtn");
-function topfunction() {
+function topFunction(){
   document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
 }
